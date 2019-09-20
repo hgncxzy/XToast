@@ -107,8 +107,13 @@ object XToast {
 
 ```
 
+### 参考
+
+https://blog.csdn.net/jdfkldjlkjdl/article/details/42031901
+
 ### 作者
 
 1. ID : hgncxzy
 2. 邮箱：[hgncxzy@qq.com](mailto:hgncxzy@qq.com)
-3. 项目地址：https://github.com/hgncxzy/BLE-SDK
+3. 项目地址：https://github.com/hgncxzy/XToast
+
