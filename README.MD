@@ -1,5 +1,9 @@
 ## Android  Toast 的通用实现
 
+### 演示效果
+
+![演示效果](https://github.com/hgncxzy/XToast/blob/master/gif/GIF.gif)
+
 ### 封装类
 
 ```kotlin
