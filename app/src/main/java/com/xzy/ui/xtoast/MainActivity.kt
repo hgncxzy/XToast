@@ -1,10 +1,6 @@
 package com.xzy.ui.xtoast
-
-import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.view.WindowManager
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -38,11 +34,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         toast_with_anim.setOnClickListener {
-            ToastManager.getInstance(this).makeToastSelfAnimation("带动画的 Toast", R.style.XToast)
-        }
-
-        miui_toast.setOnClickListener {
-            MiuiToast.MakeText(this@MainActivity, "MIUI Toast", false).show()
+            MiuiToast.makeText(this@MainActivity, "带动画的 Toast", false).show()
         }
     }
 }

@@ -91,17 +91,4 @@
         app:layout_constraintTop_toTopOf="parent"
         android:textAllCaps="false"
         tools:ignore="HardcodedText" />
-
-    <Button
-        android:id="@+id/miui_toast"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Miui Toast"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:textAllCaps="false"
-        tools:ignore="HardcodedText" />
-
 </LinearLayout>

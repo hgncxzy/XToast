@@ -84,12 +84,11 @@ object XToast {
     /**
      * 自定义文本 Toast -- 自定义布局
      * */
+    @SuppressLint("ResourceType")
     fun showCustomToast(activity: Activity, content: String) {
         cancel()
         textToast = Toast.makeText(activity, content, Toast.LENGTH_SHORT)
         val view = activity.layoutInflater.inflate(R.layout.toast, null)
-        val anim = AnimationUtils.loadAnimation(activity,R.style.XToast)
-        view.animation = anim
         textToast?.view = view
         textToast?.setGravity(Gravity.CENTER, 0, 0)
         textToast?.setText(content)

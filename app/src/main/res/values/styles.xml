@@ -9,7 +9,7 @@
     </style>
 
 
-    <style name="XToast" parent="Base.Animation.AppCompat.Dialog">
+    <style name="XToast">
         <item name="android:windowEnterAnimation">@anim/enter</item>
         <item name="android:windowExitAnimation">@anim/out</item>
     </style>
