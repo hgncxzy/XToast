@@ -57,6 +57,18 @@
         tools:ignore="HardcodedText" />
 
     <Button
+        android:id="@+id/toast_with_img_and_anim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="带图片带动画"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAllCaps="false"
+        tools:ignore="HardcodedText" />
+
+    <Button
         android:id="@+id/custom_toast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -85,6 +97,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="带动画的 Toast"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAllCaps="false"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/toast_with_anim2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="带动画的 Toast2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

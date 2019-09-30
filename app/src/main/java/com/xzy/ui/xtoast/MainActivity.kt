@@ -25,6 +25,10 @@ class MainActivity : AppCompatActivity() {
             XToast.showToastWithImg(this, "带图片的 Toast", R.mipmap.ic_success)
         }
 
+        toast_with_img_and_anim.setOnClickListener {
+            XToast.showToastWithAnimAndImg(this,"带图片带动画的Toast",R.mipmap.ic_success)
+        }
+
         custom_toast.setOnClickListener {
             XToast.showCustomToast(this, "显示纯文本的自定义 Toast")
         }
@@ -34,7 +38,12 @@ class MainActivity : AppCompatActivity() {
         }
 
         toast_with_anim.setOnClickListener {
-            MiuiToast.makeText(this@MainActivity, "带动画的 Toast", false).show()
+            AnimToast.makeText(this@MainActivity, "带动画的 Toast", false).show()
+        }
+
+
+        toast_with_anim2.setOnClickListener {
+            XToast.showToastWithAnim(this,false,"带动画的 Toast2")
         }
     }
 }
